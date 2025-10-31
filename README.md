@@ -6,33 +6,42 @@ SENAC Bank – Java Banking System
 [![Java Version](https://img.shields.io/badge/Java-11%2B-orange)](https://www.oracle.com/java/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Overview
-A console-based banking system demonstrating modular architecture and clean code principles. Features include balance checking, deposits, withdrawals with banknote control, loan calculations, and ATM inventory management.
-Project Structure
-src/
-├── main/           # Application entry point
-├── ui/             # User interface
-├── model/          # Data entities (Account, ATM, Loan)
-└── service/        # Business logic layer
-Running the Project
-bashcd src
+--> Overview
+
+A console-based banking system demonstrating modular architecture and clean code principles. 
+
+Features include balance checking, deposits, withdrawals with banknote control, loan calculations, and ATM inventory management.
+
+
+--> Running the Project
+
+bash
+
+cd src
+
 javac main/Main.java ui/Menu.java model/*.java service/*.java
+
 java main.Main
-Development Roadmap
-VersionDescriptionStatusv1Basic procedural implementationCompletev2Modular architectureCompletev3File persistencePlannedv4Database integration (JDBC)Plannedv5REST API (Spring Boot)Plannedv6Unit testing (JUnit)Plannedv7Docker and CI/CDPlanned
-Technologies
+
 
 Java 11+
+
 Object-Oriented Programming
+
 Layered Architecture (Model-Service-UI)
+
 Collections Framework
 
-Key Principles
+--> Key Principles
 
 Separation of Concerns
+
 Clean Code
+
 SOLID Principles
+
 Modular Design
+
 
 7. Author
 
